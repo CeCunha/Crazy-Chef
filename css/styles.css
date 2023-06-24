@@ -221,7 +221,7 @@ h2{
     }
     .icon-char, .icon-adj, .icon-food, .icon-time{
         display: inline;
-        width: 40px;
+        width: 35px;
     }
     hr{
         display: none;
