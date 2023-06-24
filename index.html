@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+
+	 <!-- BOOTSTRAP -->
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+	 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+ 
+	<!-- GOOGLE FONT -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	
+	<div class="row">
+		<div class="row inside">
+			<div class="col-lg-2 character">
+				<div class="btnColors" >
+					<button class="myButton1" id="btn1"></button><hr>
+				</div>
+				<img class ="icon-char" src="images/iconChar1.png"><hr>
+				<img class ="icon-char" src="images/iconChar2.png"><hr>
+				<img class ="icon-char" src="images/iconChar3.png"><hr>
+				<img class ="icon-char" src="images/iconChar4.png"><hr>
+				<img class ="icon-char" src="images/iconChar5.png">
+			</div>
+			<div class="col-lg-2 adjectives">
+				<div class="btnColors" >
+					<button class="myButton2" id="btn2"></button><hr>
+				</div>
+				<img class ="icon-adj" src="images/iconAdj1.png"><hr>
+				<img class ="icon-adj" src="images/iconAdj2.png"><hr>
+				<img class ="icon-adj" src="images/iconAdj3.png"><hr>
+				<img class ="icon-adj" src="images/iconAdj4.png"><hr>
+				<img class ="icon-adj" src="images/iconAdj5.png">
+			</div>
+			<div class="col-lg-2 food">
+				<div class="btnColors" >
+					<button class="myButton3" id="btn3"></button><hr>
+				</div>
+				<img class ="icon-food" src="images/food1.png"><hr>
+				<img class ="icon-food" src="images/food2.png"><hr>
+				<img class ="icon-food" src="images/food3.png"><hr>
+				<img class ="icon-food" src="images/food4.png"><hr>
+				<img class ="icon-food" src="images/food5.png">
+			</div>
+			<div class="col-lg-2 mealTime">
+				<div class="btnColors" >
+					<button class="myButton4" id="btn4"></button><hr>
+				</div>
+				<img class ="icon-time" src="images/iconTime1.png"><hr>
+				<img class ="icon-time" src="images/iconTime2.png"><hr>
+				<img class ="icon-time" src="images/iconTime3.png"><hr>
+				<img class ="icon-time" src="images/iconTime4.png"><hr>
+				<img class ="icon-time" src="images/iconTime5.png">
+			</div>
+			<div class="col-lg-4 menu">
+				<img class="logo" src="images/logo1.png" alt="">
+				<div class="containerRandom">
+					<h1>SURPRISE</h1>
+					<button class="btnRandom" id="btnRandom"></button>
+				</div>
+				<div class="containerChoice" >
+					<h1>SET & PLAY</h1>
+					<button class="btnChoice" id="btn6"></button>
+				</div>
+				<p id="warningBtn6"></p>
+				<div class="containerReset">
+					<h1>RESET</h1>
+					<button class="btnReset" id="btnReset"></button>
+				</div>
+				<div class="containerSound">
+					<img src="images/sound.png" alt="">
+				</div>
+				<div class="displayPhrase">
+					<h2 id="displayPhrase"></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.js"></script>
+</body>
+</html>

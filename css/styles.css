@@ -1,0 +1,281 @@
+
+body{
+    padding: 20px 80px 20px 80px;
+}
+
+.row{
+    box-shadow: inset 0 0 50px rgb(157, 97, 0);
+    padding: 20px 20px 20px 30px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, 
+    rgb(255, 187, 0),
+    orange,
+    rgb(255, 225, 0),
+    rgb(252, 206, 0),
+    rgb(255, 179, 0),
+    rgb(255, 208, 0),
+    rgb(255, 208, 1));
+}
+
+.inside{
+    padding: 2px 2px 2px 2px ;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.221);
+}
+
+.character, .adjectives, .food, .mealTime{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+
+.menu{
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+
+img{
+    filter:drop-shadow(2px 3px 1px #00000053);
+    /* border-top: #ffa600a7 dashed 1px;
+    border-bottom:  #ffa600a7 dashed 1px; */
+}
+
+hr{
+    color: #966200df ;
+    filter:drop-shadow(2px 3px 1px #00000053);
+}
+
+.icon-char, .icon-adj, .icon-food, .icon-time {
+    display: block;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.myButton1, .myButton2, .myButton3, .myButton4, .btnRandom, .btnChoice, .btnReset{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+	box-shadow: 3px 4px 2px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:100%;
+	border:5px solid #d02718;
+	display:block;
+	cursor:pointer;
+	padding:28px 2px;
+	text-decoration:none;
+    margin-bottom: 50px;
+}
+
+.myButton1:active, .myButton2:active, .myButton3:active, .myButton4:active, .btnRandom:active, .btnChoice:active, .btnReset:active{
+	position:relative;
+	top:5px;
+}
+
+.myButton2 {
+    background:linear-gradient(to bottom, #559637 5%, #72b352 100%);
+    box-shadow: 3px 4px 2px 0px #3e7327;
+    background-color:#77b55a;
+	border:5px solid #4b8f29; 
+} 
+
+.myButton3 {
+    background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+    box-shadow: 3px 4px 2px 0px #fce2c1;
+    background-color:#ffc477;
+	border:5px solid #eeb44f; 
+} 
+
+.myButton4 {
+    background:linear-gradient(to bottom, #233b63 5%, #415989 100%);
+    box-shadow: 3px 4px 2px 0px #23395e;
+    background-color:#2e466e;
+	border:5px solid #1f2f47; 
+} 
+
+.btnRandom{
+    
+    display: inline;
+    background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+    box-shadow: 3px 4px 2px 0px #9a0069;
+    background-color:#ff5bb0;
+	border:5px solid #a20a7a; 
+    width: 75px;
+    height: 75px;
+    margin-bottom: 0;
+}
+
+.btnChoice{
+    display: inline;
+    background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+    box-shadow: 3px 4px 2px 0px #276873;
+    background-color:#599bb3;
+	border:5px solid #29668f; 
+    width: 75px;
+    height: 75px;
+    margin-bottom: 0;
+}
+
+.btnReset{
+    display: inline;
+    width: 65px;
+    height: 65px;
+    margin-bottom: 0;
+}
+
+.logo{
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+h1{
+    margin-right: 10px;
+    font-size: 2rem;
+    display: inline;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: #ef027d;
+    text-shadow: 3px 3px 10px rgb(186, 133, 0);
+}
+
+.containerChoice h1{
+    color: #29668f;
+} 
+.containerReset h1{
+    font-size: 1.5rem;
+    color: red;
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    color: #cc8500ad;
+    text-shadow: 1px 1px 3px rgb(193, 135, 0); 
+}
+
+.containerRandom, .containerChoice, .containerReset{
+    padding: 10px 10px 10px 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    text-align: right;
+    width: 60%;
+    border-radius: 50px 0 0 50px;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.136);
+}
+
+.containerChoice, .containerReset{
+    margin-top: 10px;
+}
+
+.containerReset{
+    width: 40%;
+}
+
+.containerSound{
+    padding: 20px 0 20px 0;
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgba(255, 166, 0, 0.083);
+}
+
+.containerSound img{
+    width: 190px;
+    filter: none;
+}
+
+.btnColors{
+    background-image: radial-gradient(rgba(0, 0, 0, 0.401), rgba(0, 0, 0, 0.023), rgba(0, 0, 0, 0.032));
+}
+
+h2{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.514);
+    background-color:#1f2f47;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 8px 8px 8px 8px;
+    min-height: 30px;
+    font-family: 'VT323', monospace;
+    text-transform: uppercase;
+    color: #559637;
+    border-radius: 15px;
+}
+
+.displayPhrase{
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.429);
+    margin: auto;
+    width: 90%;
+}
+
+@media only screen and (max-width: 800px) {
+
+    body{
+        padding: 10px 20px 10px 20px;
+    }
+    .icon-char, .icon-adj, .icon-food, .icon-time{
+        display: inline;
+        width: 40px;
+    }
+    hr{
+        display: none;
+    }
+    .btnColors{
+        margin-right: 40px;
+        display: inline;
+        width: fit-content;
+    }
+    .myButton1, .myButton2, .myButton3, .myButton4, .btnRandom, .btnChoice, .btnReset{
+       display: inline;
+       padding: 0;
+       border-radius: 100%;
+        width: 45px;
+        height: 45px;
+        margin-bottom: 0;
+    }
+    .containerSound{
+        margin-top: 5px;
+    }
+    .containerSound img{
+        width: 100px;
+        filter: none;
+    }
+    .row{
+        padding: 5px 5px 5px 30px;
+        background-image: linear-gradient(to right, 
+        rgb(255, 187, 0),
+        orange,
+        rgb(252, 206, 0),
+        rgb(255, 179, 0),
+        rgb(255, 208, 1));
+    }
+    h1{
+        font-size: 1rem;
+    }
+    .containerReset h1{
+        font-size: 1rem;
+    }
+    .containerRandom{
+        margin-top: 20px;
+    }
+    .btnRandom, .btnChoice, .btnReset{
+        width: 35px;
+        height: 35px;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .inside{
+        padding: 0;
+    }
+}
+
+
+
+
